@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Product Sans';
+}
+
+.button-circle{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 1em;
+  height: 1em;
+  font-size: 2em;
+  border-radius: 50%;
+  &.red{
+    background-color: #E06767;
+    color: white
+  }
+  &.green{
+    background-color: #85D136;
+    color: white
+  }
+}

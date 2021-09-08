@@ -4,19 +4,19 @@ export const rfConfig = {
   useFirestoreForStorageMeta: true, // Metadata associated with storage file uploads goes to Firestore
 };
 
-// Config for firebase
 export const fbConfig = {
-  apiKey: ' AIzadumA0d1K8ycDifChLt83L8l2dAzNEsEXETAM ',
-  authDomain: 'reduxfirebaseexample-bb8f54.firebaseapp.com',
-  databaseURL: 'https://reduxfirebaseexample-cc8f4.firebaseio.com',
-  projectId: 'reduxfirebaseexample-bb4f4',
-  storageBucket: 'reduxfirebaseexample-bb4f4.appspot.com',
-  messagingSenderId: '791987320751',
-  measurementId: '791987320751',
-  appId: '1:791938380751:web:e7d8c463fde349e9280d5a',
+  apiKey: "AIzaSyAo1WDROb0yucNZVFL5zVzWfBKqc7iK_-M",
+  authDomain: "easy-groceries-online.firebaseapp.com",
+  projectId: "easy-groceries-online",
+  databaseURL: 'https://easy-groceries-online.firebaseio.com',
+  storageBucket: "easy-groceries-online.appspot.com",
+  messagingSenderId: "725690312992",
+  appId: "1:725690312992:web:b1f51294a195aa05134f45",
+  measurementId: "G-4J57NP1FT0"
 };
 
 export const segmentId = '';
 
-export const publicVapidKey =
-  'BLFE71Qyl5H66TCrLz8RdWJKipJBEiw5TsJIPwm4gc0pCcucfRj1tSwHPRJad4c85fJraDYubWRVrQo_2E3PLzo';
+export const publicVapidKey = 'your-project-vapid-key';
+
+export const sentryDsn = '';

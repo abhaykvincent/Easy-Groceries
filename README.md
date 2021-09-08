@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# cra-template-rrf
 
-## Available Scripts
+This is the base template for react-redux-firebase.
 
-In the project directory, you can run:
+To use, specify like so: `create-react-app my-app --template rrf`
 
-### `yarn start`
+Once it is installed modify `src/config.js` and put real data in this file
+Here is an example file:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+export const rfConfig = {
+  userProfile: 'users', // root that user profiles are written to
+  useFirestoreForProfile: true, // Save profile to Firestore instead of Real Time Database
+  useFirestoreForStorageMeta: true, // Metadata associated with storage file uploads goes to Firestore
+};
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+// Config for firebase
+export const fbConfig = {
+  apiKey: ' AIzadumA0d1K8ycDifChLt83L8l2dAzNEsEXETAM ',
+  authDomain: 'reduxfirebaseexample-bb8f54.firebaseapp.com',
+  databaseURL: 'https://reduxfirebaseexample-cc8f4.firebaseio.com',
+  projectId: 'reduxfirebaseexample-bb4f4',
+  storageBucket: 'reduxfirebaseexample-bb4f4.appspot.com',
+  messagingSenderId: '791987320751',
+  measurementId: '791987320751',
+  appId: '1:791938380751:web:e7d8c463fde349e9280d5a',
+};
 
-### `yarn test`
+export const segmentId = '';
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+export const publicVapidKey =
+  'BLFE71Qyl5H66TCrLz8RdWJKipJBEiw5TsJIPwm4gc0pCcucfRj1tSwHPRJad4c85fJraDYubWRVrQo_2E3PLzo';
+``` 
 
-### `yarn build`
+For more information, please refer to:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
+- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.

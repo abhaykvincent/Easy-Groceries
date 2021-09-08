@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "Create react app template for react-redux-firebase.",
   "main": "template.json",
+  "headers": {
+    "Access-Control-Allow-Origin": "*"
+  },
   "keywords": [
     "react",
     "redux",
@@ -23,12 +26,17 @@
     "url": "https://github.com/prescottprue/cra-template-rrf/issues"
   },
   "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "@reduxjs/toolkit": "^1.5.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "firebase": "^7.1.0",
     "formik": "^2.1.1",
     "history": "^4.10.1",
+    "i": "^0.3.6",
+    "node-sass": "^4.14.1",
+    "npm": "^6.14.11",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
