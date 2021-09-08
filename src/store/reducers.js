@@ -8,4 +8,8 @@ const rootReducer = combineReducers({
 });
 
 export default rootReducer;
+<<<<<<< HEAD
 //
+=======
+//
+>>>>>>> clean-up
