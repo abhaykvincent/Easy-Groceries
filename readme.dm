@@ -2,5 +2,6 @@
 
 Backend
     API
+    - getProductsByCategory
 
 Frontend
