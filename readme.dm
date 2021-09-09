@@ -11,6 +11,6 @@ Frontend
 
     - currentProducts 
     - currentProducts 
-    - currentProducts 5
+    - current
     - current
     - current
