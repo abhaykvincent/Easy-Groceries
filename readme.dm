@@ -10,7 +10,7 @@ Frontend
     STATE
 
     - currentProducts 
-    - currentProducts 
+    - current
     - current
     - current
     - current
