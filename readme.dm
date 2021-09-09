@@ -3,5 +3,6 @@
 Backend
     API
     - getProductsByCategory
+    - getProductsByKeyword
 
 Frontend
