@@ -7,4 +7,6 @@ Backend
 
 Frontend
 
-    STATE 
+    STATE
+
+    - currentProducts 
