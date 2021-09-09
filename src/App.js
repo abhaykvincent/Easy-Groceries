@@ -13,13 +13,17 @@ import Header from './components/header/header'
 // APP
 function App() {
 
-  // States
+  // 📦 States
 
   //currentProducts
   const [currentProducts, setCurrentProducts] = useState();
   //currentProductsHTML
-  const [currentProducts, setCurrentProductsHTML] = useState();
+  const [currentProductsHTML, setCurrentProductsHTML] = useState();
 
+
+  function assembleProductsHTML(){
+    //
+  }
   return (
     <div className="App">Easy Groceries</div>
   );
