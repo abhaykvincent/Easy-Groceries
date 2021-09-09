@@ -13,3 +13,4 @@ Frontend
     - currentProducts 
     - currentProducts 
     - currentProducts 
+    - currentProductsd
