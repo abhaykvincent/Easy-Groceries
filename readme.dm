@@ -6,4 +6,5 @@ Backend
     - getProductsByKeyword              store to Frontend State currentProducts --(1)
 
 Frontend
-    
+
+    states 
